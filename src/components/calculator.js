@@ -23,6 +23,9 @@ export const Calculator = (props) => {
             props.setResult(Math.abs(props.result) * -1)
         } else if (type === "dec") {
             props.setResult(props.result.toString() + ".")
+        } else if (type === "rml") {
+            if (props.result.toString().length <= 1) {props.setResult("0")} 
+            else {props.setResult(props.result.slice(0,-1))}
         }
     }
     

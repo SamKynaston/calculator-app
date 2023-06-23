@@ -17,10 +17,10 @@ button:hover {
     cursor: pointer;
 }
 
-.calc-btn-op, .calc-btn-clr, .calc-btn-eqls {
+.calc-btn-op, .calc-btn-clr, .calc-btn-eqls, .calc-btn-rml {
     background-color: var(--button-operator-color)
 }
 
-.calc-btn-op:hover, .calc-btn-clr:hover, .calc-btn-eqls:hover {
+.calc-btn-op:hover, .calc-btn-clr:hover, .calc-btn-eqls:hover, .calc-btn-rml:hover {
     background-color: var(--button-hover-operator-color)
 }

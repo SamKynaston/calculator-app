@@ -1,5 +1,6 @@
 export const isOperator = (symbol) => {
-    if (symbol === "C" || symbol === "CE" || symbol === "Backspace") {return "clr"} 
+    if (symbol === "CE") {return "clr"} 
+    else if (symbol === "Backspace" || symbol === "C") {return "rml"}
     else if (symbol === "=" || symbol === "Enter") {return "eqls"}
     else if (symbol === ".") {return "dec"}
     else if (symbol === "+/-") {return "neg"}
