@@ -1,8 +1,6 @@
 .calculator {
     margin:8px;
-    width:50%;
-    //border:8px solid var(--button-background-color);
-    //border-radius:8px;
+    width:400px;
 }
 
 .calc-holder {
