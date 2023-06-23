@@ -1,0 +1,16 @@
+:root {
+    --background-color: #1c1a1a;
+    --text-color:#FFF;
+    --button-background-color: #332c2c;
+    --button-hover-background-color: var(--display-background-color);
+    --button-operator-color: #e66e15;
+    --button-hover-operator-color: #f79348;
+    --display-font-size: 32px;
+    --display-background-color: #383434;
+}
+
+body {
+    font-family: Arial;
+    background-color:var(--background-color);
+    color:var(--text-color);
+}

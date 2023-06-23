@@ -1,0 +1,13 @@
+.calculator {
+    margin:8px;
+    width:50%;
+    //border:8px solid var(--button-background-color);
+    //border-radius:8px;
+}
+
+.calc-holder {
+    min-height: 90vh; /* minimum height = screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
